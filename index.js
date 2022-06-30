@@ -3653,7 +3653,7 @@ reply(lang.err())
 })
 	}
 	break
-case 'qs':{
+case 'alquranaudio':{
 	if(!text) return reply(lang.quran3(prefix, command, 'Surah', 'ayat', '1','2'))
 	var mon = args.join(' ')
 	var m1 = mon.split("|")[0]
